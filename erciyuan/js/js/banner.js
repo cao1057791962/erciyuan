@@ -1,0 +1,1 @@
+define(["jquery"],function(){return function(){({iNow:0,Next:0,ali:$(".banner>ul>li"),len:$(".banner>ul>li").length,autoplay:function(){var t=this;setInterval(function(){t.Next==t.len-1?t.Next=0:t.Next++,t.toImg()},3e3)},toImg:function(){this.ali.eq(this.iNow).fadeTo(500,1).siblings().fadeTo(500,0),this.iNow=this.Next}}).autoplay()}});

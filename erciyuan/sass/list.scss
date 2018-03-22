@@ -1,0 +1,102 @@
+body{
+    background:none;
+}
+#header-last{
+    background:#ed3f3f;
+    .last{
+        a:first-child{
+            width:70px;
+        }
+       a{
+           width:70px;
+           margin-right:20px;
+           color:#fff;
+           &:hover{
+               background: #d13535;
+           }
+       }
+       a:last-child{
+           &:hover{
+               background: #ed3f3f;
+           }
+       }
+    }
+}
+.listbox{
+   margin-top:20px;
+    .p1{
+        display: block;
+        width:1040px;
+        height:40px;
+        background:#d13535;
+        margin:0 auto;
+        a{
+            display:block;
+            float:left;
+            width:80px;
+            height:40px;
+            line-height:40px;
+            text-align: center;
+            color:#fff;
+            &:hover{
+               background: #ed3f3f;
+           }
+        }
+        a:first-of-type{
+            &:hover{
+               background:#d13535;
+           }
+        }
+    }
+    
+}
+.list-wrap{
+    padding-left: 14px;
+    padding-bottom: 20px;
+     width:1040px;
+     margin:0 auto;
+     .add {
+                border: 1px solid #ed3f3f;
+            }
+    li {
+        float: left;
+        width: 250px;
+        height: 306px;
+        background-color: #f1f1f1;
+        margin: 10px 8px 8px 0;
+        border: 1px solid #fff;
+        border-radius:2px;
+        &:hover {
+             box-shadow: 6px 6px 6px #CCCCCC;
+        img{
+            opacity:0.6;
+        }
+        }
+        a {
+            display: block;
+            height: 297px;
+            width: 250px;
+            font-size: 12px;
+            img {
+                display: block;
+                height: 226px;
+                width: 250px;
+            }
+            p:first-of-type {
+                margin: 10px 10px 0;
+                height: 32px;
+                overflow: hidden;
+                font-size: 12px;
+                width: 230px;
+            }
+            p:last-of-type {
+                color: #ed3f3f;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 700;
+                margin-top: 8px;
+                width: 230px;
+            }
+        }
+    }
+}
