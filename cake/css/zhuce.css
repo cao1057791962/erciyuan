@@ -1,0 +1,69 @@
+.footer h1{
+	float:left;
+}
+.footer h2{
+	float:left;
+	font-size: 20px;
+	position: absolute;
+	left:250px;
+}
+.footer h3 a{
+	color:#FF4400;
+}
+.footer h3 {
+	padding-right:30px;
+}
+#article-wrapper{
+	background:#fff;
+	margin-top:80px;
+}
+.article{
+	height:400px;
+	width:280px;
+	padding-top:65px;
+}
+input{
+	height:30px;
+	width:230px;
+	padding-left:20px;
+	border:0;
+	border-bottom:1px solid #e5e5e5;
+}
+input[type="button"]{
+	background:#f40;
+	width:250px;
+	height:40px;
+	color:#fff;
+	cursor: pointer;
+}
+input[type="checkbox"]{
+	background:#f40;
+	width:15px;
+	height:15px;
+	color:#fff;
+	position: absolute;
+	top:240px;
+	left:0px;
+}
+label{
+	height:30px;
+	width:240px;
+	padding-left:20px;
+	display:block;
+}
+label:last-child{
+	margin-top:13px;
+}
+form{
+	position: relative;
+}
+.icon-icon--1{
+	position: absolute;
+	top:8px;
+	left:2px;
+}
+.icon-mima{
+	position: absolute;
+	top:70px;
+	left:2px;
+}

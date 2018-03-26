@@ -1,0 +1,185 @@
+#article-wrapper{
+	margin-top:110px;
+}
+.article{
+	min-height: 340px;
+	background:url(../images/no.png) no-repeat center;
+	background-position-y: 60%;
+}
+.article h1{
+	text-align: center;
+	height:60px;
+	line-height: 60px;
+	font-size: 20px;
+	color:#3E3E3E;
+	padding-top:40px;
+}
+.box{
+	min-height:200px;
+}
+.list{
+	width:1000px;
+	margin:0 auto;
+	padding:24px 0;
+	background:#fff;
+	
+}
+.list p{
+	margin-bottom:8px;
+	padding-left:70px;
+	height:16px;
+}
+.list p span{
+	display:inline-block;
+	border-radius:4px;
+	color:#fff;
+	padding:0 5px;
+	height:16px;
+	line-height:16px;
+	background:#f40;
+}
+.list p b{
+	display:inline-block;
+	border-radius:4px;
+	color:#f40;
+	margin-left:5px;
+}
+.shop{
+	height:144px;
+	color:#3E3E3E;
+	position: relative;
+}
+input[type="checkbox"]{
+	position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 0;
+    top: 50%;
+   transform: translateY(-50%); 
+}
+.img{
+	width: 180px;
+    height: 100%;
+    margin-left: 70px;
+    float:left;
+}
+.img img{
+	height:100%;
+	width:100%;
+	display:block;
+}
+.right{
+	margin-left: 30px;
+    width: 720px;
+    height: 100%;
+    float:left;
+}
+.r-left{
+    width: 500px;
+    height: 100%;
+    float:left;
+}
+.r-left h2{
+	height:20px;
+	font-size:14px;
+	line-height: 20px;
+	color:#282828;
+}
+.r-left h3{
+	height:22px;
+	font-size:14px;
+	line-height: 22px;
+}
+.r-left h4{
+	height:20px;
+	font-size:14px;
+	line-height: 20px;
+	color:#949494;
+}
+select{
+	position: absolute;
+	bottom:0;
+	outline: none;
+	border: 1px dotted #CCCCCC;
+	border-radius: 6px;
+	width:200px;
+}
+.r-right{
+	float:right;
+	width:195px;
+	height:144px;
+	position: relative;
+}
+.r-right p{
+	font-size: 14px;
+    color: #ff4001;
+    text-align: right;
+}
+.input-wrap{
+	position: absolute;
+    width: 195px;
+    height: 24px;
+    bottom: 0;
+    right: 0;
+}
+.input-wrap i{
+	position: absolute;
+	top: 4px;
+	left: -50px;
+	cursor: pointer;
+}
+.input-wrap a{
+	width: 50px;
+    height: 24px;
+    display: inline-block;
+    background:#F3F3F3;
+    text-align: center;
+    line-height: 24px;
+}
+.input-wrap input{
+	width: 14px;
+    height: 14px;
+    border: 0;
+    outline: none;
+    margin:0 34px;
+}
+.count{
+	height:80px;
+	width:1000px;
+	margin:0 auto;
+	position: relative;
+}
+.count label{
+	margin-left: 70px;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+}
+.count label span{
+	color:#f40;
+	padding:0 5px;
+}
+.count-right{
+	float:right;
+	width:460px;
+	height:80px;
+}
+.count-right label{
+	font-size:16px;
+}
+.count-right label span{
+	font-weight: 900;
+}
+.count-right button{
+	position: absolute;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    right: 0;
+    top: 10px;
+    color: #ffffff;
+    background: #ff4001;
+    outline: none;
+}

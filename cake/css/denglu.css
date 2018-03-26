@@ -1,0 +1,90 @@
+.footer h1{
+	float:left;
+}
+.footer h2{
+	float:left;
+	font-size: 20px;
+	position: absolute;
+	left:250px;
+}
+#article-wrapper{
+	background:url(../images/bg1.jpg) center;
+	margin-top:80px;
+	height:520px;
+	border: 1px solid #fff;;
+	position: relative;
+}
+.article{
+	height:260px;
+	width:290px;
+	background:#f4f2f0;
+	position: absolute;
+	top:50%;
+	left:70%;
+	transform: translateY(-50%);
+	border-radius:10px;
+}
+.article p{
+	height:35px;
+	font-size: 20px;
+	line-height:35px;
+	color:#62b900;
+	text-align: center;
+}
+input{
+	height:30px;
+	width:230px;
+	padding-left:20px;
+	border:0;
+	border-bottom:1px solid #e5e5e5;
+	margin-left:20px;
+	border-radius:6px;
+}
+input[type="button"]{
+	background:#f40;
+	width:250px;
+	height:40px;
+	color:#fff;
+	cursor: pointer;
+}
+label{
+	height:30px;
+	width:240px;
+	padding-left:20px;
+	display:block;
+	line-height: 30px;
+}
+label:last-child{
+	text-align: right;
+	margin-top:20px;
+}
+label:last-child a{
+	color:#f9946c;
+}
+form{
+	position: relative;
+}
+.icon-icon--1{
+	position: absolute;
+	top:43px;
+	left:22px;
+}
+.icon-mima{
+	position: absolute;
+	top:106px;
+	left:22px;
+}
+form .icon-weixin{
+	position: absolute;
+	top:220px;
+	left:25px;
+	font-size:24px;
+	color:#62b900;
+}
+.icon-weibo{
+	position: absolute;
+	top:220px;
+	left:68px;
+	font-size:24px;
+	color:red;
+}

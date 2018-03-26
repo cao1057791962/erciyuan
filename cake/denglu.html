@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/denglu.css" />
+		
+	</head>
+	<script src="js/pool.js"></script>
+	<body>
+		<header id="header-wrapper">
+			<header class="footer-wrapper">
+					<section class="footer content">
+						<h1>
+							<a href="##" title="欢迎来到诺心蛋糕店">蛋糕</a>
+						</h1>
+						<h2>
+							用户登录
+						</h2>
+						
+					</section>
+			</header>
+		</header>
+		<article id="article-wrapper">
+			<article class="article content">
+				<form method="" action="">
+				<p>用户登录</p>
+				<i class="iconfont icon-icon--1"></i><input type="text" placeholder="用户名" /><br />
+				<label></label>
+				<i class="iconfont icon-mima"></i><input type="password" placeholder="6-20位密码" /><br />
+				<label></label>
+				<input type="button" value="立即登录"/><br />
+				<i class="iconfont icon-weixin"></i>
+				<i class="iconfont icon-weibo"></i>
+				<label>还没有账号?<a href="zhuce.html">立即注册</a></label>
+				</form>
+			</article>
+		</article>
+		<footer class="last">
+						<section>
+							<a>
+								<i class="iconfont icon-kefu"></i>
+								<i>在线客服</i>
+							</a>
+							<a>
+								<i class="iconfont icon-weixin"></i>
+								<i>微信</i>
+							</a>
+						</section>
+						<section>
+							<i class="iconfont icon-iconfontdianhua5"></i>
+							<i>客服电话：4001-578-578 服务时间（08:30-22:30）</i>
+						</section>
+						<section>
+							<a href="##">诺心公告</a>|
+							<a href="##">关于诺心</a>|
+							<a href="##">联系我们</a>|
+							<a href="##">客服服务</a>|
+							<a href="##">食品经营许可证</a>|
+							<a href="##">生产许可证</a>
+						</section>
+						<section>
+							<i>诺心食品（上海）有限公司   上海徐汇区田林路140号28号楼  客服邮箱：services@lecake.com  公司电话：4001-578-578</i>
+						</section>
+						<section>
+							<i>copyright©2010-2017诺心lecake.com版权所有 沪ICP备10211730</i>
+						</section>
+					</footer>
+	</body>
+</html>
+<script>
+	var num = JSON.parse(getCookie("shuju"));
+	
+	var ip=document.querySelectorAll("input");
+	var txt=document.querySelectorAll("label");
+	ip[2].onclick=function(){
+		if(ip[0].value==num.username&&ip[1].value==num.pwd)
+		{	
+			location.href="index.html"
+		}
+		if(ip[0].value!=num.username)
+		{
+			txt[0].innerHTML="用户名不存在！";
+			txt[0].style.color="red";
+		}
+		if(ip[1].value!=num.pwd)
+		{
+			txt[1].innerHTML="密码错误！";
+			txt[1].style.color="red";
+		}
+	}
+	ip[0].onclick=function(){
+		txt[0].innerHTML="";
+		txt[1].innerHTML="";
+	}
+	ip[1].onclick=function(){
+		txt[0].innerHTML="";
+		txt[1].innerHTML="";
+	}
+</script>

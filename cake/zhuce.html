@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户注册</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/zhuce.css" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+	</head>
+	<script src="js/pool.js"></script>
+	<body>
+		<header id="header-wrapper">
+			<header class="footer-wrapper">
+					<section class="footer content">
+						<h1>
+							<a href="##" title="欢迎来到诺心蛋糕店">蛋糕</a>
+						</h1>
+						<h2>
+							用户注册
+						</h2>
+						<h3>已有账户<a href="denglu.html">登录</a></h3>
+					</section>
+			</header>
+		</header>
+		<article id="article-wrapper">
+			<article class="article content">
+				<form method="" action="">
+				<i class="iconfont icon-icon--1"></i><input type="text" placeholder="用户名" /><br />
+				<label></label>
+				<i class="iconfont icon-mima"></i><input type="password" placeholder="6-20位密码" /><br />
+				<label></label>
+				<input type="password" placeholder="再次输入密码" /><br />
+				<label></label>
+				<input type="button" value="立即注册"/><br/>
+				<input type="checkbox" checked="checked"/><label> 我已阅读并同意<a href="##">《诺心lecake用户服务协议》</a></label>
+				</form>
+			</article>
+		</article>
+		<footer class="last">
+						<section>
+							<a>
+								<i class="iconfont icon-kefu"></i>
+								<i>在线客服</i>
+							</a>
+							<a>
+								<i class="iconfont icon-weixin"></i>
+								<i>微信</i>
+							</a>
+						</section>
+						<section>
+							<i class="iconfont icon-iconfontdianhua5"></i>
+							<i>客服电话：4001-578-578 服务时间（08:30-22:30）</i>
+						</section>
+						<section>
+							<a href="##">诺心公告</a>|
+							<a href="##">关于诺心</a>|
+							<a href="##">联系我们</a>|
+							<a href="##">客服服务</a>|
+							<a href="##">食品经营许可证</a>|
+							<a href="##">生产许可证</a>
+						</section>
+						<section>
+							<i>诺心食品（上海）有限公司   上海徐汇区田林路140号28号楼  客服邮箱：services@lecake.com  公司电话：4001-578-578</i>
+						</section>
+						<section>
+							<i>copyright©2010-2017诺心lecake.com版权所有 沪ICP备10211730</i>
+						</section>
+					</footer>
+	</body>
+</html>
+<script>
+	var username=document.getElementsByTagName("input")[0];
+	var pwd=document.getElementsByTagName("input")[1];
+	var pwd1=document.getElementsByTagName("input")[2];
+	var btn=document.getElementsByTagName("input")[3];
+	var txt=document.getElementsByTagName("label");
+	var check=document.getElementsByTagName("input")[4];
+	console.log(check.checked)
+	username.onblur=function(){
+		var t=username.value;
+		var s=/^[a-zA-Z0-9]{3,16}/.test(t);
+		if(!s)
+		{
+			username.value="";
+			txt[0].innerHTML="您输入的用户名格式不正确！"
+			txt[0].style.color="red";
+		}
+		else
+		{
+			txt[0].innerHTML="输入的用户名格式正确！"
+			txt[0].style.color="#ccc";
+		}
+	}
+	pwd.onblur=function(){
+		var t=pwd.value;
+		var s=/^[a-zA-Z0-9_-]{6,20}$/.test(t);
+		if(!s)
+		{
+			pwd.value="";
+			txt[1].innerHTML="您输入的密码名格式不正确！"
+			txt[1].style.color="red";
+		}
+		else
+		{
+			txt[1].innerHTML="输入的密码格式正确！"
+			txt[1].style.color="#ccc";
+		}
+	}
+	pwd1.onblur=function(){
+		var t=pwd1.value;
+		var s=pwd.value;
+		if(t!=s)
+		{
+			pwd.value="";
+			txt[2].innerHTML="您输入的密码不一致！"
+			txt[2].style.color="red";
+			bstop=true;
+		}
+		else
+		{
+			txt[2].innerHTML="密码一致！"
+			txt[2].style.color="#ccc";
+		}
+	}
+	btn.onclick=function(){
+		var obj={};
+		obj.username=username.value;
+		obj.pwd=pwd.value;
+		if(username.value!=null&&pwd.value!=null&&pwd1.value==pwd.value&&check.checked)
+		{
+			var str=JSON.stringify(obj);
+			setCookie("shuju",str,7);
+			location.href="denglu.html";
+		}
+		else{
+			alert("请把信息填写完整！");
+		}
+	}
+</script>

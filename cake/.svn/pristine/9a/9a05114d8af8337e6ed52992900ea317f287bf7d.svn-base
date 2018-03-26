@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>诺心蛋糕</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+	</head>
+	<body>
+		<header id="header-wrapper">
+			<header class="top-wrapper">
+					<section class="top content clearfix">
+						<section class="t-left">
+							<i class="iconfont icon-dingwei"></i>
+							<i>深圳</i>
+						</section>
+						<section class="t-right">
+							<i class="iconfont icon-kefu"></i>
+							<a href="##">在线客服</a>
+							<i class="iconfont icon-weixin"></i>
+							<a href="##">
+								<i>微信</i>
+								<img src="images/wx.png" />
+							</a>
+						</section>
+					</section>
+			</header>
+			<header class="footer-wrapper">
+					<section class="footer content">
+						<h1>
+							<a href="##" title="欢迎来到诺心蛋糕店">蛋糕</a>
+						</h1>
+						<ul class="ul01 clearfix">
+							<li>
+								<a href="index.html">首页</a>
+							</li>
+							<li>
+								<a href="home.html">蛋糕</a>
+							</li>
+							<li>
+								<a href="##">礼品</a>
+							</li>
+							<li>
+								<a href="##">企业专区</a>
+								<ul class="ul02">
+									<li>
+										<a href="##">企业采购</a>
+									</li>
+									<li>
+										<a href="##">大客户区</a>
+									</li>
+									<li>
+										<a href="##">福利劵区</a>
+									</li>
+									<li>
+										<a href="##">银行专区</a>
+									</li>
+									<li>
+										<a href="##">小食盒区</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="##">我的诺心</a>	
+								<ul class="ul03">
+									<li>
+										<a href="##">LECLUB</a>
+									</li>
+									<li>
+										<a href="##">我的订单</a>
+									</li>
+									<li>
+										<a href="##">找回密码</a>
+									</li>
+									<li>
+										<a href="##">礼卡专区</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<section>
+							<a href="denglu.html">登录</a>/
+							<a href="zhuce.html">注册</a>
+							<i class="iconfont icon-yunshangchuan"></i>
+							<a href="shopcart.html">购物车</a>
+						</section>
+					</section>
+			</header>
+		</header>
+		<article id="article-wrapper">
+			<article class="article clearfix content">
+				<section class="bg">
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+				</section>
+				<div class="main">
+					<span class="arr">↑</span>
+					<div id="banner">
+							<ul>
+								<li><img src="images/banner1.jpg"/></li>
+								<li><img src="images/banner2.jpg"/></li>
+								<li><img src="images/banner3.jpg"/></li>
+								<li><img src="images/banner4.jpg"/></li>
+								<li><img src="images/banner5.jpg"/></li>
+								<li><img src="images/banner6.jpg"/></li>
+							</ul>
+							<div id="btn">
+								<a href="##" class="active"></a>
+								<a href="##"></a>
+								<a href="##"></a>
+								<a href="##"></a>
+								<a href="##"></a>
+								<a href="##"></a>
+							</div>
+					</div>
+					<div class="title">
+						<a href="##">
+							<img src="images/t1.jpg" />
+						</a>
+						<span>雪域牛乳芝士蛋糕 Le Cheesecake</span>
+					</div>
+					<div class="title1">
+						<a href="##">
+							<img src="images/t2.jpg" />
+						</a>
+						<span>金桔满堂蛋糕 Orange Mousse Cake</span>
+					</div>
+					<div class="title2">
+						<a href="##">
+							<img src="images/t3.jpg" />
+						</a>
+						<span>美刀刀蛋糕 Ms. Golden</span>
+					</div>
+					<div class="article-f clearfix">
+						<p>诺心推荐</p>
+						<i>lecake recommend</i>
+						
+					</div>
+					<p class="article-ft">
+					<a href="home.html">
+						<span>更多蛋糕</span>
+						<span>more+</span>
+					</a>
+					</p>
+					<footer class="last">
+						<section>
+							<a>
+								<i class="iconfont icon-kefu"></i>
+								<i>在线客服</i>
+							</a>
+							<a>
+								<i class="iconfont icon-weixin"></i>
+								<i>微信</i>
+							</a>
+						</section>
+						<section>
+							<i class="iconfont icon-iconfontdianhua5"></i>
+							<i>客服电话：4001-578-578 服务时间（08:30-22:30）</i>
+						</section>
+						<section>
+							<a href="##">诺心公告</a>|
+							<a href="##">关于诺心</a>|
+							<a href="##">联系我们</a>|
+							<a href="##">客服服务</a>|
+							<a href="##">食品经营许可证</a>|
+							<a href="##">生产许可证</a>
+						</section>
+						<section>
+							<i>诺心食品（上海）有限公司   上海徐汇区田林路140号28号楼  客服邮箱：services@lecake.com  公司电话：4001-578-578</i>
+						</section>
+						<section>
+							<i>copyright©2010-2017诺心lecake.com版权所有 沪ICP备10211730</i>
+						</section>
+					</footer>
+				</div>
+			</article>
+		</article>
+
+	</body>
+</html>
+<script src="js/pool.js"></script>
+<script src="js/style.js"></script>
