@@ -1,0 +1,56 @@
+.x-pic{
+	display: block;
+	width:100%;
+	height:2.1rem;
+}
+.detail .boxb{
+	box-sizing: border-box;
+	padding:0 .2rem;
+}
+.detail .boxb h2{
+	height:.24rem;
+	line-height:.24rem;
+	box-sizing: border-box;
+	margin:.16rem 0rem;
+	font-size:.16rem;
+}
+.detail .boxb p{
+	height:.18rem;
+	line-height:.18rem;
+	margin-bottom:.1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.detail .boxb p i{
+	border-right:1px solid #000;
+	margin:0 .02rem;
+	padding-right:.02rem;
+}
+.detail .boxb p i:last-child{
+	border:0;
+}
+.bt{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.neiron{
+	width:100%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	height:1.132rem;
+}
+input[type="button"]{
+	font-size: .14rem;
+    min-width: 1.56rem;
+    height: .36rem;
+    line-height: .36rem;
+    border: none;
+    background-color: #fe8233;
+    padding: 0;
+    margin: 0;
+    border-radius: .18rem;
+    color: #fff;
+    margin:.2rem auto;
+}
